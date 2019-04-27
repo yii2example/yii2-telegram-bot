@@ -1,6 +1,5 @@
 <?php
 
-
 use yii2rails\app\domain\commands\ApiVersion;
 use yii2rails\app\domain\commands\RunBootstrap;
 use yii2rails\app\domain\filters\config\LoadConfig;
@@ -9,12 +8,12 @@ use yii2rails\app\domain\filters\config\LoadRouteConfig;
 use yii2rails\domain\filters\LoadDomainConfig;
 use yii2rails\app\domain\enums\YiiEnvEnum;
 
-$config = [
+return [
 	'servers' => [
 		'db' => [
 			'main' => [
 				'map' => [
-                    'rest_collection' => 'bot.rest',
+                    //'rest_collection' => 'bot.rest',
 				],
 			],
 		],
@@ -149,5 +148,3 @@ $config = [
         ],
     ],
 ];
-
-return $config;
