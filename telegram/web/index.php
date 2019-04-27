@@ -19,4 +19,4 @@ DomainHelper::forgeDomains([
 
 ]);
 
-include(__DIR__ . '/' . $path . '/vendor/yii2rails/yii2-extension/src/telegram/libs/bootstrap.php');
+include(__DIR__ . '/' . $path . '/vendor/yii2bundle/yii2-telegram/src/domain/libs/bootstrap.php');

@@ -1,0 +1,34 @@
+<RestClientRequest>
+  <option name="biscuits">
+    <list />
+  </option>
+  <option name="httpMethod" value="POST" />
+  <option name="urlBase" value="http://bot.ex" />
+  <option name="urlPath" value="" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Accept" />
+        <option name="value" value="*/*" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cache-Control" />
+        <option name="value" value="no-cache" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="token" />
+        <option name="value" value="123456:QWERTYUIOPASDFGHJKL" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="true" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="{   &quot;update_id&quot;: 482389383,   &quot;message&quot;: {     &quot;message_id&quot;: 3004,     &quot;from&quot;: {       &quot;id&quot;: 377819118,       &quot;is_bot&quot;: false,       &quot;first_name&quot;: &quot;yii2guru&quot;,       &quot;username&quot;: &quot;yii2guru&quot;,       &quot;language_code&quot;: &quot;ru&quot;     },     &quot;chat&quot;: {       &quot;id&quot;: 377819118,       &quot;first_name&quot;: &quot;yii2guru&quot;,       &quot;username&quot;: &quot;yii2guru&quot;,       &quot;type&quot;: &quot;private&quot;     },     &quot;date&quot;: 1555146733,     &quot;text&quot;: &quot;&quot;   } }" />
+  <option name="filesToSend" value="" />
+</RestClientRequest>

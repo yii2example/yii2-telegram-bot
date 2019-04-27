@@ -2,8 +2,8 @@
 
 namespace tests\functional;
 
-use yii2rails\extension\telegram\helpers\MockResponseHelper;
 use GuzzleHttp\Client;
+use yii2bundle\telegram\domain\helpers\MockResponseHelper;
 use yii2lab\test\Test\Unit;
 use yii2rails\extension\web\enums\HttpMethodEnum;
 

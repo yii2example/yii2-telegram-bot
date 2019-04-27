@@ -135,7 +135,7 @@ $config = [
             'migration' => [
                 'class' => 'yii2lab\db\domain\filters\migration\SetPath',
                 'path' => [
-                    '@vendor/yii2rails/yii2-extension/src/telegram/migrations',
+                    '@vendor/yii2bundle/yii2-telegram/src/domain/migrations',
                     '@vendor/yii2bundle/yii2-lang/src/domain/migrations',
                     '@vendor/yiisoft/yii2/log/migrations'
                 ],

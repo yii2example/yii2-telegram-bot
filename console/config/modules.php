@@ -1,8 +1,8 @@
 <?php
 
-$config = [
-
+return [
+    'vendor' => 'yii2module\vendor\console\Module',
+    'rest' => 'yii2lab\rest\console\Module',
+    'db' => 'yii2lab\db\console\Module',
+    'account' => 'yubundle\account\console\Module',
 ];
-
-$configFile = __DIR__ . '/../../vendor/yubundle/yii2-common/src/project/console/config/modules.php';
-return \yii2rails\extension\common\helpers\Helper::includeConfig($configFile, $config);

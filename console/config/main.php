@@ -1,8 +1,16 @@
 <?php
 
-$config = [
+use yii2module\lang\domain\enums\LanguageEnum;
 
+return [
+    'language' => LanguageEnum::EN, // current Language
+    'components' => [
+        'user' => [
+            'class' => 'yii2module\account\domain\v2\web\User',
+            'enableSession' => false, // ! important
+        ],
+    ],
+    'controllerMap' => [
+        'migrate' => 'yii2lab\db\console\controllers\MigrateController',
+    ],
 ];
-
-$configFile = __DIR__ . '/../../vendor/yubundle/yii2-common/src/project/console/config/main.php';
-return \yii2rails\extension\common\helpers\Helper::includeConfig($configFile, $config);
