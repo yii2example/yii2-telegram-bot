@@ -15,6 +15,7 @@
 		"yii2bundle/yii2-db": "0.8.*",
 		"yii2bundle/yii2-error": "0.2.*",
 		"yii2bundle/yii2-lang": "0.5.*",
+		"yii2bundle/yii2-notify": "0.8.*",
 		"yii2bundle/yii2-telegram": "0.0.*"
 	},
 	"require-dev": {
