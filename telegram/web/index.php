@@ -1,7 +1,6 @@
 <?php
 
 use yii2rails\domain\base\BaseDomainLocator;
-use yii2rails\domain\helpers\DomainHelper;
 
 $name = 'console';
 $path = '../..';
@@ -15,8 +14,4 @@ if(!class_exists(App::class)) {
 App::initPhpApplication($name);
 App::$domain = new BaseDomainLocator;
 
-DomainHelper::forgeDomains([
-
-]);
-
-include(__DIR__ . '/' . $path . '/vendor/yii2bundle/yii2-telegram/src/domain/libs/bootstrap.php');
+include(__DIR__ . '/' . $path . '/telegram/config/bootstrap.php');
