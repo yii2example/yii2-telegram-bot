@@ -105,6 +105,10 @@
 		},
 		{
 			"type": "git",
+			"url": "https://github.com/yii2bundle/yii2-ai.git"
+		},
+		{
+			"type": "git",
 			"url": "https://github.com/yii2bundle/yii2-application-template.git"
 		},
 		{
@@ -134,6 +138,10 @@
 		{
 			"type": "git",
 			"url": "https://github.com/yii2bundle/yii2-lang.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/yii2bundle/yii2-markdown.git"
 		},
 		{
 			"type": "git",
@@ -169,31 +177,19 @@
 		},
 		{
 			"type": "git",
+			"url": "https://github.com/yii2bundle/yii2-validator.git"
+		},
+		{
+			"type": "git",
 			"url": "https://github.com/yii2bundle/yii2-telegram.git"
 		},
 		{
 			"type": "git",
-			"url": "http://git.yuwert.kz/yubundle/yii2-account.git"
+			"url": "https://github.com/yii2game/yii2-engine.git"
 		},
 		{
 			"type": "git",
-			"url": "http://git.yuwert.kz/yubundle/yii2-lang.git"
-		},
-		{
-			"type": "git",
-			"url": "http://git.yuwert.kz/yubundle/yii2-reference.git"
-		},
-		{
-			"type": "git",
-			"url": "http://git.yuwert.kz/yubundle/yii2-notify.git"
-		},
-		{
-			"type": "git",
-			"url": "http://git.yuwert.kz/yubundle/yii2-user.git"
-		},
-		{
-			"type": "git",
-			"url": "http://git.yuwert.kz/yubundle/yii2-common.git"
+			"url": "https://github.com/yii2game/yii2-evo.git"
 		}
 	]
 }
